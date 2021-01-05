@@ -57,6 +57,6 @@ $resources = $xml->customers->children();
 foreach ($resources as $resource) {
     $attributes = $resource->attributes();
     $resourceId = $attributes['id'];
-    // From there you could, for example, use th resource ID to call the webservice to get its details
+    // From there you could, for example, use the resource ID to call the webservice to get its details
 }
 ```
